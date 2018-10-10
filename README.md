@@ -21,5 +21,8 @@ Batch processing jobs at set schedules for a large number of tasks. These jobs r
 - generates limited metadata about task landing times, execution durations, and failures of scheduled tasks
 - simple management operations like inspecting and interacting with the CRON processes are difficult for any data stakeholder who lacks a system administration skill set.
 
+## Alternatives to airflow
+Google DataFlow for streaming data.
+
 # References
 https://airflow.apache.org/start.html
