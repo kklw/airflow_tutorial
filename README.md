@@ -1,11 +1,25 @@
 # Airflow Tutorial
 Airflow is a platform to programmatically author, schedule and monitor workflows.
 
-# Setup
+## Setup
 ```bash
 export AIRFLOW_GPL_UNIDECODE=yes
 
 pip install -r requirements.txt
+```
+
+## Quick Start
+```bash
+# initialize the database
+airflow initdb
+
+# start the web server, default port is 8080
+airflow webserver -p 8080
+
+# start the scheduler
+airflow scheduler
+
+# visit localhost:8080 in the browser
 ```
 
 # Use cases
